@@ -13,7 +13,8 @@
       "@navigator/*": ["./src/navigator/*"],
       "@utils/*": ["./src/utils/*"],
       "@theme": ["./src/theme/index.ts"],
-      "@modules/*": ["./src/modules/*"]
+      "@modules/*": ["./src/modules/*"],
+      "@store/*": ["./src/store/*"]
     }
   }
 }

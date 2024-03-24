@@ -18,9 +18,9 @@ const styles = StyleSheet.create({
 
 const drawerContents = () => (
   <SafeAreaView>
-    <View style={styles.root}>
+    {/* <View style={styles.root}>
       <Text>Side Menu Contents</Text>
-    </View>
+    </View> */}
   </SafeAreaView>
 );
 
@@ -29,7 +29,8 @@ function DrawerNavigator() {
     <Drawer.Navigator
       initialRouteName="MainDrawer"
       screenOptions={{ headerShown: false }}
-      drawerContent={drawerContents}>
+      drawerContent={drawerContents}
+    >
       <Drawer.Screen name="MainDrawer" component={TabNavigator} />
     </Drawer.Navigator>
   );

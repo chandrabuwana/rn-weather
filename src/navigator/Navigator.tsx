@@ -70,11 +70,6 @@ function Navigator() {
       <NavigationContainer>
         <DrawerNavigator />
       </NavigationContainer>
-      {/* {!isWeb && (
-        <BottomSheet isOpen={isOpen} initialOpen>
-          <WelcomeBottomSheetContents onClose={() => setOpen(false)} />
-        </BottomSheet>
-      )} */}
     </>
   )
 }
